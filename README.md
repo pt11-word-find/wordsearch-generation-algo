@@ -11,4 +11,10 @@ width / height - integers that indicate the size of the puzzle.
 
 - Forced Variety - Because of the nature of the current looping, the algorithm disfavors diagonal words and they are rarer than they should be.
 
+- "Not Enough Room" grid handling - Currently if a word 100% cannot fit in the grid, I believe this algorithm will loop infinitely. Uh oh!
+
+### Disclaimer
+
+This has been minimally tested! Please report any issues or errors on the gh issue tracker or on Twitter @michaelharms70
+
 THIS CAN BE SIMPLIFIED but it works and it's dynamic in sizing
