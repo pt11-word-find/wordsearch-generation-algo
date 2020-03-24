@@ -1,9 +1,10 @@
 # wordsearch-generation-algo
 
-This package contains one default export, a function that takes three parameters: (wordlist, width, height)
+This package contains one default export, a function that takes four parameters: (wordlist, width, height, difficulty)
 
 wordlist - an array of words to be placed in the word search
 width / height - integers that indicate the size of the puzzle.
+difficulty - An integer. if greater than 1, will include reversed words.
 
 ## Planned improvements
 
